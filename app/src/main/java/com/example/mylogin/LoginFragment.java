@@ -106,7 +106,7 @@ public class LoginFragment extends Fragment {
             public void onClick(View view) {
                 String username = etUsername.getText().toString();
                 String password = etPassword.getText().toString();
-                if (username.trim().isEmpty() && password.trim().isEmpty()) {
+                if (username.trim().isEmpty() || password.trim().isEmpty()) {
                     Toast.makeText(getActivity(), "Some fields are empty!", Toast.LENGTH_SHORT).show();
                     return;
                 }
