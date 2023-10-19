@@ -95,7 +95,7 @@ public class LoginFragment extends Fragment {
                 gotoForgotPasswordFragment();
             }
         });
-        tvForgotPassLink.setOnClickListener(new View.OnClickListener() {
+        tvSignupLink.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
                 gotoSignupFragment();
